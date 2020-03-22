@@ -1,0 +1,138 @@
+.turbolinks-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #0076ff;
+  z-index: 9999;
+  transition: width 300ms ease-out, opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+
+/*navigation bar settings*/
+
+/*This was used to style the navbar to be sticky by the assignment of position, top and z-index was used 
+to keep the scrolled page under the navbar*/
+.navi{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-item{
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.navbar-toggler-icon{
+  background-color: slategrey;
+}
+
+.navbar-brand{
+  color: black;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+#container-tag{
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: 100;
+  color: #6fdA44;
+  font-size: 70px;
+}
+
+/*Styling for the jumbotron*/
+.home-jumbo{
+  background: #360033;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #0b8793, #360033); 
+  margin-top: 50px;
+  padding-left: 25px;
+}
+
+.column2{
+  float: right;
+  margin-left: 420px;
+  padding-top: 10px;
+  height: 70%;
+  width: 20%;
+}
+
+
+#jumbo-image{
+  height: 100%;
+  width: 100%;
+}
+
+.jumbo-h3{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.jumbo-h6{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Footer*/
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+#contact-us{
+  padding-left: 35px;
+}
+
+.fa-facebook-square{
+  font-size:24px; 
+  padding-left: 15px; 
+  margin-left: 10px; 
+  margin-top: 10px;
+}
+
+.fa-twitter-square{
+  font-size:24px; 
+  padding-left: 15px; 
+  margin-top: 10px;
+}
+
+.fa-linkedin-square{
+  font-size:24px; 
+  padding-left: 15px; 
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
